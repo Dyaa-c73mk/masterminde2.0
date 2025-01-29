@@ -28,7 +28,7 @@ public class functieMastermind {
 		for (int j = 0; j < 10; j++) {
 
 			System.out.println("Enter your guess (Pickable colors: R, Y, G, B, P, O) - separate colors by spaces: ");
-			String input = sc.nextLine(); // Gebruik nextLine() om volledige input te verkrijgen
+			String input = sc.nextLine(); 
 
 			String[] gokken = input.split(" ");
 
